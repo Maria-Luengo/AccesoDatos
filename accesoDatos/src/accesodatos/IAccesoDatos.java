@@ -10,5 +10,7 @@ public interface IAccesoDatos {
     void listar();
 
     void actualizar();
+    
+    void eliminar();
 
 }
