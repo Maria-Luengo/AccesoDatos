@@ -7,17 +7,22 @@ public class ImplementacionMysql implements IAccesoDatos {
 
     @Override
     public void insertar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Insertando desde SQL");
     }
 
     @Override
     public void listar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Listar desde SQL");
     }
 
     @Override
     public void actualizar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Actualizar desde SQL");
+    }
+
+    @Override
+    public void eliminar() {
+        System.out.println("Eliminar desde SQL");
     }
     
 }
