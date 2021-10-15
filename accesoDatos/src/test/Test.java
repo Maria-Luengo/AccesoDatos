@@ -10,5 +10,9 @@ public class Test {
         IAccesoDatos datos= new ImplementacionMysql(); 
         datos.listar();
         
+        IAccesoDatos datosO = new ImplementacionOracle();
+        datosO.listar(); //listando desde Oracle
+        
+        
     }
 }
